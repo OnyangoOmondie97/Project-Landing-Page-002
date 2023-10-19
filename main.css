@@ -1,0 +1,170 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+body.bg-black {
+    background-color:black;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.container#Viewbox {
+    border-color: rgb(43, 43, 113);
+    align-items: center;
+    height: 100vh;  
+    width: 45%;
+    margin: 10 auto;
+    overflow: hidden;
+}
+
+#header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 28%;
+    width: 100%;
+    padding-top: 23px;
+    position: relative;
+}
+
+.links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+.links li {
+    margin: 0 15px; 
+    display: inline-block;
+}
+
+.links .h1 {
+    flex-grow: 1;   
+}
+
+.links a {
+    text-decoration: none; 
+    color: #F9FAF8;
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+.image-placeholder {
+    width: 90%;         
+    height: 50%;         
+    border: 2px dashed #aaa; 
+    background-color: grey;
+    display: flex;
+    align-items: center;   
+    justify-content: center; 
+    
+}
+
+.image-placeholder::before {
+    color: #f5f5f5;         
+    font-style: italic;  
+}
+
+#random-information {
+    height: 22%;
+    width: 100%;
+    background-color: #F9FAF8;
+    color: #1F2937;
+    justify-content: center;
+    align-items: center;
+}
+
+#square-row {
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; 
+    margin-top: 3%;
+
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: #E5E7EB;
+    border: 5px solid blue;
+    border-radius: 5px;
+}
+
+#square-row figcaption {
+    text-align: center;
+    margin-top: 10px; 
+    font-size: 8px;
+}
+
+#square-row figure {
+    margin: 0 10px; 
+}
+
+#quote-section {
+    background-color: #E5E7EB;
+    height: 22%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    padding-top: 10%;
+}
+
+#call-to-action {
+    height: 22%;
+    width: 100%;
+    background-color: #F9FAF8;
+    position: relative;
+    padding-top: 3%;
+    
+}
+
+#call-to-action-box {
+    height: 70%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: #3882F6;
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+    position: absolute;
+    margin-left: 10%;
+}
+
+
+.col-7, .col-4 {
+    flex: 0 0 auto;  
+}
+
+.col-7 {
+    flex-basis: 70%;  
+}
+
+.col-4 {
+    flex-basis: 30%; 
+}
+
+
+.btn.btn-primary {
+    border: 2px solid #E5E7EB;
+    background-color: #3882F6;
+    width: 80%;
+}
+
+.custom-footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    width: 100%;
+    height: 6%;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    display: flex;          
+}
